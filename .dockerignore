@@ -1,0 +1,23 @@
+# Editores y sistema
+.vscode/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+
+# Secretos
+.env
+.env.*
+
+# Docker
+Dockerfile*
+.dockerignore
+
+# Git
+.git/
+.gitignore
+
+# Documentación y test
+*.md
+docs/
+tests/

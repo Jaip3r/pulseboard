@@ -2,8 +2,13 @@
 venv/
 .venv/
 
+# Secretos
+.env
+.env.*
+
 # Python
 __pycache__/
+*.py[cod]
 
 # VS Code
 .vscode/
