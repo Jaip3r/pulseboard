@@ -1,4 +1,4 @@
-FROM python:3.13
+FROM python:3.14-slim-trixie
 
 WORKDIR /app
 
@@ -8,4 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["fastapi", "dev", "main.py"]
+EXPOSE 8000
+
+CMD ["fastapi", "run", "main.py", "--port", "8000"]

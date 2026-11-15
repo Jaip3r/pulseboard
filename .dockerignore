@@ -13,6 +13,10 @@ __pycache__/
 Dockerfile*
 .dockerignore
 
+# Entornos virtuales
+venv/
+.venv/
+
 # Git
 .git/
 .gitignore
